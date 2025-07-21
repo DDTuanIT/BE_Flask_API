@@ -1,0 +1,195 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  background-color: rgb(37, 39, 40);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom-style: solid;
+  border-bottom-color:  rgb(71, 71, 71);
+  border-bottom-width: 1px;
+  z-index: 5;
+
+}
+.left-section {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding:20px 13px;
+
+}
+.middle-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 590px;
+  min-width: 0;
+  min-width: none;
+  flex-shrink: 0;
+}
+
+.right-section {
+  margin-left: 130px;
+  width: 185px;
+  margin-right: 15px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  flex-shrink: 0;
+}
+.facebook-icon {
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+  object-position: center;
+}
+.search-bar {
+  min-width: 40px;
+  margin-left: 5px;
+  padding: 10px 0px 10px 10px ;
+  background-color: rgb(55, 55, 55);
+
+  border: none;
+  border-radius: 25px;
+
+  width: 100%;
+}
+.search-bar::placeholder {
+  font-size: 15px;
+  font-family: system-ui, -apple-system;
+  color: rgb(168, 168, 168);
+}
+.home-icon, 
+.friends-icon,
+.video-icon,
+.market-icon {
+  height: 26px;
+}
+.group-icon{
+  height: 26px;
+  border: none;
+  border-radius: 50%;
+
+}
+.group-button,
+.market-button,
+.video-button,
+.friends-button,
+.home-button {
+  width: 110px;
+  height: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  position: relative;
+
+}
+.tooltip {
+  background-color: rgb(210, 210, 210);
+  color: black;
+  font-size: 13px;
+  padding:7px 10px;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -36px;
+  opacity: 0;
+  white-space: nowrap;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visible 0s, linear 0.3s;
+}
+.group-button:hover .tooltip,
+.market-button:hover .tooltip,
+.video-button:hover .tooltip,
+.friends-button:hover .tooltip,
+.home-button:hover .tooltip{
+  opacity: 1;
+  visibility: visible;
+}
+.group-button:hover,
+.market-button:hover,
+.video-button:hover,
+.friends-button:hover,
+.home-button:hover {
+  background-color: rgb(71, 71, 71);
+}
+.app-icon,
+.notifications-icon {
+  height: 19px;
+  cursor: pointer;
+}
+.message-icon {
+  height: 19px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.profile-button,
+.notifications-button,
+.message-button,
+.app-button {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(71, 71, 71);
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+
+  position: relative;
+}
+.notifications-button:hover,
+.message-button:hover,
+.app-button:hover {
+  transform: background-color 4s;
+  background-color: rgb(101, 100, 100);
+}
+.profile-icon:hover .tooltip,
+.notifications-button:hover .tooltip,
+.message-button:hover .tooltip,
+.app-button:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+.profile-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border:none;
+  object-fit: cover;
+  object-position: bottom;
+  cursor: pointer;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+}
+.profile-icon .more-icon {
+  height: 10.5px;
+  width: 10.5px;
+  border-radius: 50%;
+  
+  border: 2px solid rgb(37, 39, 40);
+  object-fit: cover;
+  object-position: center;
+
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+}

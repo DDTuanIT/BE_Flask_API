@@ -1,0 +1,28 @@
+.div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 10px;
+  height: 20px;
+}
+
+.nts {
+  background-color: rgb(45, 109, 245);
+  border: none;
+  border-radius: 14px;
+  padding: 5px 12px;
+  color: white;
+  font-weight: bold;
+}
+
+.box {
+  width: 300px;
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+}

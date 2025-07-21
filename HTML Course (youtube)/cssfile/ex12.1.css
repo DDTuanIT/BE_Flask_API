@@ -1,0 +1,14 @@
+.frow {
+  background-color: lightblue;
+  width: 200px;
+}
+.srow {
+  background-color: lightpink;
+  width: 75px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+
+}

@@ -1,0 +1,39 @@
+.bar {
+  width: 500px;
+  border:none;
+  background-color: rgb(120, 82, 178);
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 200px;
+}
+
+.home {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding-left: 15px;
+  width: 50px;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.search-bar {
+  padding-left: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 150px;
+  max-width: 300px;
+}
+.Download-button {
+  background-color: rgb(120, 82, 178);
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 15px;
+}

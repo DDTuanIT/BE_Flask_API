@@ -1,0 +1,11 @@
+.colums-grid {
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+
+.cl-1 {
+  background-color: rgb(82, 128, 161);
+}
+.cl-2 {
+  background-color: rgb(161, 82, 146);
+}

@@ -1,0 +1,34 @@
+.bgr {
+  background-color: gray;
+  width: 320px;
+  height: 180px;
+  position: fixed;
+ right: 10px;
+ bottom: 10px;
+}
+.close-tab {
+  font-family: Arial;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  height: 45px;
+  width: 45px;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  top: -17px;
+  left: -17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video-time {
+  font-family: Arial;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  padding: 5px 5px;
+}

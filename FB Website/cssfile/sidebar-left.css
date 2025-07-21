@@ -1,0 +1,152 @@
+.sidebar-1 {
+  position: relative;
+  top: 0px;
+  left: 5px;
+  bottom: 0;
+  width: 323px;
+
+  padding-top: 65px;
+  color: white;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar-1-top {
+  height: 475px;
+  padding-bottom: 5px;
+  border-bottom-style: solid;
+  border-bottom-color:  rgb(71, 71, 71);
+  border-bottom-width: 1.5px;
+}
+.row-info {
+  height: 52px;
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 7px;
+  cursor: pointer;
+
+  border: none;
+  border-radius: 10px;
+
+}
+.row-info:hover{
+  background-color: rgb(71, 71, 71);
+}
+.name {
+  font-size: 15px;
+  padding-left: 13px;
+  color: rgb(228, 230, 235);
+  text-decoration: none;
+}
+.sidebar-1 .profile-icon {
+  height: 37px;
+  width: 37px;
+}
+.sidebar-1 .friends-blue-icon {
+  height: 25px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.celebrate-blue-icon {
+  height: 28px;
+  margin-left: 4px;
+  margin-right: 2px;
+}
+.save-icon {
+  height: 29px;
+  margin-left: 9px;
+  margin-right: 6px;
+}
+.group-blue-icon {
+  height: 29px;
+  margin-left: 4px;
+  border: none;
+  border-radius: 50%;
+}
+.video-blue-icon {
+  height: 25px;
+  margin-left: 4px;
+  margin-right: 14px;
+}
+.market-blue-icon {
+  margin-left: 4px;
+  height: 27px;
+}
+.feedtable-blue-icon {
+  margin-left: 4px;
+  height: 27px;
+}
+.more-icon {
+  height: 37px;
+  width: 37px;
+  object-fit: cover;
+  object-position: center;
+  border: none;
+  border-radius: 50%;
+}
+.sidebar-1-bottom {
+  height: 800px;
+  width: 323px;
+
+  position: relative;
+  top: 7px;
+  left: 0;
+}
+.shortcut {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.shortcut-name {
+  color: rgb(168, 168, 168);
+  font-size: 17.5px;
+  padding-left: 9px;
+}
+.change-button {
+  color: #3082ee;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  opacity: 0;
+
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+}
+.change-button:hover {
+  background-color: rgb(71, 71, 71);
+  opacity: 1;
+}
+.sidebar-1-bottom:hover .change-button{
+  opacity: 1;
+}
+.mixi-group-icon,
+.bungo-group-icon,
+.billars-game-icon,
+.drl-group-icon {
+  height: 35px;
+  border: none;
+  border-radius: 7px;
+}
+.term {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+  width: 300px;
+
+  color: rgb(168, 168, 168);
+}
+.c-circle-icon,
+.i-rectangle-icon {
+  height: 11px;
+
+  border: none;
+  border-radius: 20%;
+}
+span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
